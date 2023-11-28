@@ -1,91 +1,108 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="Mi blog" content="width=device-width, intial-scale=1.0, user-scalable=no">
-    <title>Mi bloog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi blog</title>
+    <link real="stylesheet" href="stytle.css">
 
-
-    <link real="stylesheet" href="style.css">
- 
 </head>
 
 <body>
-<!--blog section-->
-<section id="bloog">
-    
-    <!--heading-->
+    <header>
+        <nav>
+            <a href="#"> Inicio</a>
+            <a href="#"> Mis jobis</a>
+            <a href="#">Mis proyectos</a>
+            <a href="#">Mi familia</a>
+        </nav>
+        <section class="textos-header">
+            <h1>
+                Hola soy Antonella tengo 21 años soy de Concepcion del Uruguay.
+                Acá te cuento sobre mi.Soy una persona sencilla pero que ama las cosas que hace.
+            </h1>
+        </section>
+    </header>
+    <main>
+        <section class="contenedor">
+            <h2 class="Titulo">Mi familia</h2>
+            <div class="contenedor-sobre-familia">
+                <img src="imagen/Familia.jpg" alt="" class="imagen-about-us">
+                <div class="contenidos-textos">
+                    <h3>Estas son las personas que mas amo</h3>
+                </div>
+            </div>
+        </section>
+        <section class="Portafolio">
+            <div class="contenedor1">
+                <h2 class="Titulo">Mis fotos</h2>
+                <div class="galeria-fotos">
+                    <div class="imagen-fotos">
+                        <img src="imagen/IMG-20231116-WA0000.jpg" alt="">
+                        <div class="hover-galeria">
+                        </div>
 
-    <div class="boog-heading">
-    <samp>Mi publicasion reciente</samp>
-    <h3>Mi bloog</h3>
-    </div>
-   
-    <!--boog container-->
-    
-    <div class="blog-container"> 
-        
-        <!--box1------->
-        <div class="blog-box"></div>
-        <!--img------>
-        
-        <div class="blog-img">
-            <img src="imagenes/Libro.png" alt="blog">
+                        <div class="galeria-fotos">
+                            <div class="imagen-fotos">
+                                <img src="imagen/IMG-20231116-WA0027.jpg" alt="">
+                                <div class="hover-galeria">
+
+                                </div>
+
+                                <div class="galeria-fotos">
+                                    <div class="imagen-fotos">
+                                        <img src="imagen/IMG-20231116-WA0125.jpg" alt="">
+                                        <div class="hover-galeria"></div>
+                                    </div>
+                                </div>
+                            </div>
+        </section>
+        <section class="about-jobis">
+            <div class="contenedor">
+                <h2 class="titulo">Mis jobis</h2>
+                <div class="jobis-cont">
+                    <div class="jobis-ind">
+                        <img src="imagen/Libro.png" alt="">
+                        <h3>Libro</h3>
+                        <p>Me gusta mucho leer. Mis generos preferidos
+                            son el misterio y el romance.
+                            Acá te dejo uno de mis libros favoritos.</p>
+                    </div>
+
+                    <div class="jobis-ind">
+                        <img src="imagen/Moto.jpg" alt="">
+                        <h3>Moto</h3>
+                        <p>Ir en la moto me da la sensación de libertad, comodidad y velocidad
+                            todo en uno y porque andar en moto es lo más satisfactorio
+                            y emocionante para mi.</p>
+                    </div>
+
+                    <div class="jobis-ind">
+                        <img src="imagen/Rollers.jpg" alt="">
+                        <h3>Rolers</h3>
+                        <p>Me gusta esta actividad primero porque la comparto
+                            con mi hermana y segundo porque es algo que me
+                            distrae y relaja.</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Email</h4>
+                <p>antonellahernandez@gmail.com</p>
+            </div>
+            <div class="content-foo">
+                <h4>Location</h4>
+                <p>8296312</p>
+            </div>
         </div>
-
-        <!--text-->
-        <div class="blog-text">
-            <a href="#" class="blog.title">Mis jobis</a>
-            <p>Me gusta mucho leer. Mis generos preferidos
-            son el misterio y el romance.
-            Acá te dejo uno de mis libros favoritos.
-</p>
-<a href="#">Leer más</a>
-
-        </div>
-    </div>
-
-    <!--box2------->
-    <div class="blog-box"></div>
-    <!--img------>
-    
-    <div class="blog-img">
-        <img src="imagenes/78369913-hermosa-mujer-pelirroja-graduado-celebración-sonriente-libros-y-diploma-sobre-fondo-blanco.jpg" alt="blog">
-    </div>
-    
-    <!--text-->
-    <div class="blog-text">
-        <a href="#" class="blog.title">Mis Proyectos</a>
-        <p>Me gusta mucho leer. Mis generos preferidos
-            son el misterio y el romance.
-            Acá te dejo uno de mis libros favoritos.
-        </p>
-        <a href="#">Leer más</a>
-    
-    </div>
-    </div>
-
-    <!--box3------->
-    <div class="blog-box"></div>
-    <!--img------>
-    
-    <div class="blog-img">
-        <img src="imagenes/IMG-20231116-WA0000.jpg" alt="blog">
-    </div>
-    
-    <!--text-->
-    <div class="blog-text">
-        <a href="#" class="blog.title">Mis jobis</a>
-        <p>Me gusta mucho leer. Mis generos preferidos
-            son el misterio y el romance.
-            Acá te dejo uno de mis libros favoritos.
-        </p>
-        <a href="#">Leer más</a>
-    
-    </div>
-    </div>
-</section>
-   
+        <h2 class="titulo-final">&copy; Antonella Hernandez</h2>
+    </footer>
 </body>
+
 </html>
